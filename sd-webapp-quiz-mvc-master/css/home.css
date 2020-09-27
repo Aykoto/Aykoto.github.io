@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /* To make sure users don't copy text from the toets */
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    outline: none;
+}
+
+.toets {
+    background-color: lightblue;
+    height: auto;
+    width: 1000px;
+    margin: 30px auto;
+    box-shadow: 5px 7px 5px 5px rgba(0,26,51,0.5);
+    padding: 2px 50px 50px 50px;
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 60px;
+    background-color: deepskyblue;
+    color: #001a33;
+    margin: 20px 10px 20px 10px;
+    padding: 2px 0px;
+    box-shadow: 5px 7px 5px 5px rgba(0,26,51,0.5);
+}
+
+#voortgang {
+    display:flex;
+    margin: 20px auto;
+    padding: 0 20px 0 20px;
+    justify-content: space-around;
+}
+
+hr {
+    border: 2px solid lightblue;
+}
+#content{
+    margin-top: 20px;
+    padding-left: 20px;
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50px 50px 50px 50px;
+}
+
+html {
+    background-color: #e6e6e6;
+}
+
+button {
+    background-color: deepskyblue;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#n1 {
+    grid-row:1;
+    grid-column:1 / 2;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#n2 {
+    grid-row:2;
+    grid-column:1 / 2;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+#n3 {
+    grid-row:3;
+    grid-column:1 / 2;
+}
